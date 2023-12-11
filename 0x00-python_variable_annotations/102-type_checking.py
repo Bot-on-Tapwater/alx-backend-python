@@ -3,7 +3,7 @@
 Use mypy to validate the following piece of
 code and apply any necessary changes.
 """
-from typing import TypeVar, Any, Union, Mapping
+from typing import TypeVar, Any, Union, Mapping, Tuple, List
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
