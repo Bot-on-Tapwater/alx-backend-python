@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from typing import Tuple, List
 """
 Use mypy to validate the following piece of
 code and apply any necessary changes.
 """
+from typing import TypeVar, Any, Union, Mapping
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:

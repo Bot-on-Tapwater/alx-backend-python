@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from typing import Sequence, Union, Any
 """
 Augment the following code with the
 correct duck-typed annotations
 """
+from typing import TypeVar, Any, Union, Mapping
 
 
 # The types of the elements of the input are not know
