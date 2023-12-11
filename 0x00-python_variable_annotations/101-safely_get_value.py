@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-from typing import TypeVar, Any, Union, Mapping
 """
 Given the parameters and the return values,
 add type annotations to the function
 """
+from typing import TypeVar, Any, Union, Mapping
+
 
 T = TypeVar('T')
 
