@@ -3,7 +3,7 @@
 Augment the following code with the
 correct duck-typed annotations
 """
-from typing import TypeVar, Any, Union, Mapping
+from typing import TypeVar, Any, Union, Mapping, Sequence
 
 
 # The types of the elements of the input are not know
