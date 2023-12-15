@@ -1,12 +1,19 @@
 #!/usr/bin/env python3
-"""Implement wait_n"""
-import asyncio
+"""
+write an async routine, that will spawn the wait_random func n times
+"""
+
 from typing import List
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
-    """return list of delays"""
-    delays = [await wait_random(max_delay) for i in range(0, n)]
-
-    return delays
+    """
+    write an async routine, that will spawn
+    the wait_random func n times
+    """
+    lst: list = []
+    for i in range(n):
+        res = await wait_random(max_delay)
+        lst.append(res)
+    return lst
