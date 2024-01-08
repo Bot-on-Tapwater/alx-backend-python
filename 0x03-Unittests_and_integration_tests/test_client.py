@@ -20,20 +20,5 @@ class TestAccessNestedMap(unittest.TestCase):
         path: Tuple[str, ...],
         expected_result: Any
     ) -> None:
-        """
-        Test the access_nested_map function.
-
-        Args:
-        - nested_map (dict): The nested map to access.
-        - path (tuple): The path to the value in the nested map.
-        - expected_result (any): The expected result
-        of accessing the nested map.
-
-        Returns:
-        - None
-
-        Raises:
-        - AssertionError: If the actual result
-        does not match the expected result.
-        """
+        """test method"""
         self.assertEqual(access_nested_map(nested_map, path), expected_result)
